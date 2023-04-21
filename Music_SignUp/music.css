@@ -1,0 +1,109 @@
+body{
+  background-image: url("pic.jpg");
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  background-size: cover;
+  background-position: center;
+ background-color: #1DB954;
+ color: #FFFFFF;
+font-size: 1.3em;
+}
+h1, p{
+  text-align: center;
+  font-family: Tahoma;
+}
+h1{
+  text-decoration: underline; 
+  margin: 30px;
+  font-size: 3em;
+}
+form{
+  margin: 0 auto 90px auto;
+  background: linear-gradient(#116530EC, #08313AEC, #041604EC);
+  border: 0;
+  font-size: 16;
+  width: 60%;
+  min-width: 300px;
+  max-width: 600px;
+  box-shadow: 0 0 20px 0 #3B7E20CC;
+  padding: 1rem;
+  
+}
+input[type="submit"]{
+  margin: 1em auto;
+}
+fieldset {
+  border: none;
+  padding: 1em 1em;
+  border-bottom: 1px solid #A3EBB1;
+  
+  
+}
+.field1{
+  display:block;
+  width: 100%;
+  margin: 0.5em auto;
+  height: 2em; 
+  background-color: #A3EBB1CC;
+  border: none;
+  margin-bottom: 2em;
+  padding: 0.5em;
+}
+label{
+  display: block;
+  padding: none;
+}
+.fset1{
+  font-size: 18;
+
+}
+input[type="checkbox"]{
+  margin: 5 10 5 1;
+}
+textarea{
+  margin: 1em auto 0.5em auto;
+  display: block;
+  padding: 1em;
+  background-color: #A3EBB1CC;
+}
+
+select
+{
+  margin: auto auto;
+  display: block;
+  min-width: 200px;
+  max-width: 400px;
+  width: 75%;
+  height: 2em;
+  margin-bottom: 1rem;
+  text-align: center;
+background-color: #A3EBB1CC;
+  color: #444444;
+}
+label[for="project"]{
+  margin: 1em auto;
+  text-align: center;
+  
+  
+}
+.t-c{
+  margin: 1em auto;
+  text-align: center;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #A3EBB1CC;
+  border: none;
+  min-width: 300px;
+  box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+a{
+  color: #DDDDDD;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
