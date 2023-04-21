@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="music.css"/>
+    <title>Music Recs</title>
+  </head>
+  <body>
+    <h1 id="title">Music Recs</h1>
+    <p id="description">Fill out this form to get personalised music recommendations</p>
+    <form id="survey-form">
+      <fieldset class="fset1">
+        <label for="name" id="name-label">Name <input type="text" id="name" class="field1" required placeholder="Mike Ross"/></label>        
+        <label for="email"  id="email-label">Email <input class="field1" type="email" required placeholder="mikeross@suits.com" /></label>
+        <label for="number" id="number-label" >Age <input class="field1" type="number" id="number"  min="14" max="120" placeholder="25"/></label>
+      </fieldset>
+      <fieldset>
+        <p>Select a minimum of 3 of your favourite genres</p>
+        <label for="pop"><input id="pop" value="pop" type="checkbox">Pop</label>
+        <label for="rock"><input id="rock" value="rock" type="checkbox">Rock</label>
+        <label for="hip-hop"><input id="hip-hop" value="hip-hop" type="checkbox">Hip-Hop</label>
+        <label for="edm"><input id="edm" value="edm" type="checkbox">EDM</label>
+        <label for="r&b"><input id="r&b" value="r&b" type="checkbox">R&B</label>
+        <label for="jazz"><input id="jazz" value="jazz" type="checkbox">Jazz</label>
+        <label for="ins"><input id="ins" value="ins" type="checkbox">Instrumental</label>
+        <label for="country"><input id="country" value="country" type="checkbox">Country</label>
+        <label for="metal"><input id="metal" value="metal" type="checkbox">Metal</label><br>
+        <label for="other"><center>Genres & Artists</center><textarea id="other" placeholder="Some other genres and artists I enjoy are"></textarea></label>
+      </fieldset>
+      <fieldset>
+        <p>Choose your plan</p>
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Daily Plan</option>
+          <option value="2">Weekly Plan</option>
+          <option value="3">Monthly Plan</option>
+        </select>
+        <label for="project">Would you like to contribute to the project?<br>(yes<input name="project" id="project" type="radio">/no<input name="project" id="project" type="radio">)</label>
+        <label for="t-c" class="t-c"><input type="checkbox" name="t-c" required/>I accept the <a href="">terms and conditions</a>.</label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </body>
+</html>
